@@ -1,10 +1,10 @@
-#Visual Gizlilik Politikası
+Visual Gizlilik Politikası
 Son güncelleme: 2 Ekim 2026
 
 Visual ("Uygulama"), kullanıcıların dizi ve film içeriklerini takip etmesine, puanlamasına, yorum yapmasına ve izleme listeleri oluşturmasına olanak sağlayan bir mobil uygulamadır. Bu politika, hangi kişisel verilerin toplandığını, nasıl işlendiğini, nasıl korunduğunu, ne kadar süre saklandığını ve nasıl silinebileceğini açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.
 
 Veri Sorumlusu
-Kişisel verilerinizin işlenmesinden Visual uygulamasının geliştiricisi Onur Erdal sorumludur. İletişim: onurerdal4455@gmail.com
+Kişisel verilerinizin işlenmesinden Visual uygulamasının geliştiricisi Macrofam Studio sorumludur. İletişim: onurerdal4455@gmail.com
 
 Toplanan Bilgiler
 Uygulamayı kullandığınızda aşağıdaki bilgiler toplanır:
@@ -53,7 +53,7 @@ TMDB: yalnızca dizi/film içerik bilgilerini (afiş, özet, oyuncu vb.) getirme
 Bu sağlayıcılar kendi gizlilik politikalarına tabidir: Google, Facebook, Firebase. Verileriniz, bu sağlayıcıların sunucularının bulunduğu ülkelerde (Türkiye dışı dahil) işlenebilir.
 
 Verilerin Saklanması ve Saklama Süresi
-Verileriniz hesabınız aktif olduğu sürece saklanır. Uygulamada Ayarlar > "Hesabı Sil" seçeneği hesabınızı, profilinizi, kullanıcı adınızı, yorumlarınızı, bildirimlerinizi ve takip ilişkilerinizi siler. Geriye kalan bir içeriğinizin de silinmesini isterseniz aşağıdaki e-posta adresine yazabilirsiniz; talebiniz en geç 30 gün içinde işleme alınır. Hizmet sağlayıcıların yedeklerindeki kopyalar kendi döngülerinde silinir. Yasal yükümlülük gerektiren veriler bu süre dışında tutulabilir.
+Verileriniz hesabınız aktif olduğu sürece saklanır. Uygulamada Ayarlar > "Hesabı Sil" seçeneği hesabınızı, profilinizi, kullanıcı adınızı, listelerinizi, yorumlarınızı, bildirimlerinizi ve takip ilişkilerinizi siler. Geriye kalan bir içeriğinizin de silinmesini isterseniz aşağıdaki e-posta adresine yazabilirsiniz; talebiniz en geç 30 gün içinde işleme alınır. Hizmet sağlayıcıların yedeklerindeki kopyalar kendi döngülerinde silinir. Yasal yükümlülük gerektiren veriler bu süre dışında tutulabilir.
 
 Verilerin Paylaşılması
 Kişisel bilgileriniz satılmaz, kiralanmaz veya reklam amacıyla üçüncü taraflarla paylaşılmaz. Veriler yalnızca şu durumlarda paylaşılır:
@@ -66,7 +66,7 @@ Haklarınız
 6698 sayılı KVKK ve ilgili mevzuat kapsamında; verilerinizin işlenip işlenmediğini öğrenme, erişim, düzeltme, silme, işlemeye itiraz etme ve verilerinizin aktarıldığı üçüncü kişileri öğrenme haklarına sahipsiniz. Bu haklarınızı kullanmak için bizimle iletişime geçebilirsiniz.
 
 Hesap ve Veri Silme
-Uygulamadan: Visual > Ayarlar > "Hesabı Sil" seçeneğine dokunup onaylayın. Hesabınız, profiliniz, kullanıcı adınız, yorumlarınız, bildirimleriniz ve takip ilişkileriniz silinir.
+Uygulamadan: Visual > Ayarlar > "Hesabı Sil" seçeneğine dokunup onaylayın. Hesabınız, profiliniz, kullanıcı adınız, listeleriniz, yorumlarınız, bildirimleriniz ve takip ilişkileriniz silinir.
 
 Uygulamaya erişemiyorsanız: aşağıdaki e-posta adresine, uygulamada kayıtlı e-posta adresinizden "Hesap Silme Talebi" konulu bir e-posta gönderebilirsiniz:
 
