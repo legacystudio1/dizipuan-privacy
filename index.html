@@ -27,7 +27,7 @@
   <h2>Veri Sorumlusu</h2>
   <p>
     Kişisel verilerinizin işlenmesinden Visual uygulamasının geliştiricisi
-    sorumludur. İletişim: <a href="mailto:onurerdal4455@gmail.com">onurerdal4455@gmail.com</a>
+    Onur Erdal sorumludur. İletişim: <a href="mailto:onurerdal4455@gmail.com">onurerdal4455@gmail.com</a>
   </p>
 
   <h2>Toplanan Bilgiler</h2>
@@ -35,15 +35,16 @@
   <ul>
     <li>E-posta adresi</li>
     <li>Kullanıcı adı</li>
-    <li>Profil fotoğrafı</li>
+    <li>Profil fotoğrafı ve biyografi</li>
     <li>Google veya Facebook hesabına ait temel profil bilgileri (ad, e-posta, profil fotoğrafı)</li>
     <li>Puanlar, yorumlar ve beğeniler</li>
     <li>İzlenen diziler, sezonlar ve bölümler</li>
     <li>Favoriler, izleme listeleri ve özel listeler</li>
+    <li>İzleme süreleri ve gönderdiğiniz geri bildirim mesajları</li>
     <li>Bildirim göndermek için kullanılan cihaz bildirim tokeni</li>
   </ul>
   <p>
-    Uygulama; konum, rehber, mikrofon, kamera (profil fotoğrafı seçimi dışında),
+    Uygulama; konum, rehber, mikrofon,
     finansal bilgi veya sağlık bilgisi gibi hassas verileri toplamaz.
   </p>
 
@@ -64,7 +65,7 @@
     <li><strong>Aktarım sırasında şifreleme:</strong> Uygulama ile sunucularımız arasındaki tüm veri iletişimi HTTPS/TLS ile şifrelenir.</li>
     <li><strong>Depolama sırasında şifreleme:</strong> Veriler, Google Firebase altyapısında şifrelenmiş olarak (at-rest encryption) saklanır.</li>
     <li><strong>Güvenli kimlik doğrulama:</strong> Giriş işlemleri Firebase Authentication, Google Sign-In ve Facebook Login üzerinden yapılır. Şifreler (e-posta ile kayıt durumunda) tarafımızca düz metin olarak görülmez veya saklanmaz.</li>
-    <li><strong>Erişim kontrolü:</strong> Veritabanı erişimi Firebase güvenlik kuralları ile sınırlandırılır; her kullanıcı yalnızca kendi özel verilerine erişebilir ve onları değiştirebilir. Verilere yönetici erişimi yalnızca geliştirici ile sınırlıdır.</li>
+    <li><strong>Erişim kontrolü:</strong> Veri erişimi kimlik doğrulama tokeni ile yetkilendirilir. TMDB servis anahtarı uygulamada değil, sunucu tarafında tutulur.</li>
     <li><strong>Veri minimizasyonu:</strong> Yalnızca uygulamanın çalışması için gerekli veriler toplanır.</li>
     <li><strong>Hassas verilerin işlenmemesi:</strong> Ödeme bilgisi, konum, sağlık verisi gibi hassas kişisel veriler toplanmaz veya saklanmaz.</li>
     <li><strong>İhlal bildirimi:</strong> Kişisel verilerinizi etkileyen bir güvenlik ihlali tespit edersek, yürürlükteki mevzuata uygun şekilde ilgili kullanıcıları ve yetkili mercileri bilgilendiririz.</li>
@@ -80,9 +81,12 @@
     Visual, aşağıdaki üçüncü taraf hizmet sağlayıcılarını kullanır:
   </p>
   <ul>
-    <li><strong>Google Firebase</strong> (Authentication, Firestore/Realtime Database, Storage, Cloud Messaging): hesap yönetimi, veri depolama ve bildirimler için</li>
+    <li><strong>Google Firebase</strong> (Authentication, Firestore): hesap yönetimi ve veri depolama için</li>
     <li><strong>Google Sign-In</strong> ve <strong>Facebook Login</strong>: oturum açma için</li>
-    <li><strong>Film/dizi veri servisleri</strong> (örn. TMDB): yalnızca içerik bilgilerini (afiş, özet, oyuncu vb.) getirmek için; bu servislere kişisel verileriniz gönderilmez</li>
+    <li><strong>Supabase</strong>: yorumlar ve uygulama verilerinin işlenmesi için</li>
+    <li><strong>Cloudflare</strong>: içerik isteklerini ileten sunucu tarafı servisler için</li>
+    <li><strong>Expo</strong>: push bildirimlerinin iletilmesi için</li>
+    <li><strong>TMDB</strong>: yalnızca dizi/film içerik bilgilerini (afiş, özet, oyuncu vb.) getirmek için; bu servise kişisel verileriniz gönderilmez</li>
   </ul>
   <p>
     Bu sağlayıcılar kendi gizlilik politikalarına tabidir:
@@ -95,14 +99,13 @@
 
   <h2>Verilerin Saklanması ve Saklama Süresi</h2>
   <p>
-    Hesap bilgileri, puanlar, yorumlar ve izleme listeleri, hesabınız aktif
-    olduğu sürece saklanır. Hesabınızı sildiğinizde veya silinmesini talep
-    ettiğinizde, hesabınızla ilişkili kişisel veriler (e-posta, kullanıcı adı,
-    profil fotoğrafı, puanlar, yorumlar, listeler ve bildirim tokeni) en geç
-    30 gün içinde sistemlerimizden kalıcı olarak silinir. Yasal yükümlülükler
-    gereği saklanması zorunlu olan veriler bu süre dışında tutulabilir.
-    Yedeklerdeki veriler, yedekleme döngüsü tamamlandığında (en geç 90 gün)
-    otomatik olarak silinir.
+    Verileriniz hesabınız aktif olduğu sürece saklanır. Uygulamada Ayarlar >
+    "Hesabı Sil" seçeneği hesabınızı, profilinizi, kullanıcı adınızı,
+    yorumlarınızı, bildirimlerinizi ve takip ilişkilerinizi siler. Geriye kalan
+    bir içeriğinizin de silinmesini isterseniz aşağıdaki e-posta adresine
+    yazabilirsiniz; talebiniz en geç 30 gün içinde işleme alınır.
+    Hizmet sağlayıcıların yedeklerindeki kopyalar kendi döngülerinde silinir.
+    Yasal yükümlülük gerektiren veriler bu süre dışında tutulabilir.
   </p>
 
   <h2>Verilerin Paylaşılması</h2>
@@ -128,19 +131,23 @@
     Bu haklarınızı kullanmak için bizimle iletişime geçebilirsiniz.
   </p>
 
-  <h2>Hesap ve Veri Silme</h2>
+  <h2 id="hesap-silme">Hesap ve Veri Silme</h2>
   <p>
-    Hesabınızın ve kişisel verilerinizin silinmesini istemek için aşağıdaki
-    e-posta adresine, uygulamada kayıtlı e-posta adresinizden "Hesap Silme
-    Talebi" konulu bir e-posta gönderebilirsiniz:
+    <strong>Uygulamadan:</strong> Visual &gt; Ayarlar &gt; "Hesabı Sil" seçeneğine
+    dokunup onaylayın. Hesabınız, profiliniz, kullanıcı adınız, yorumlarınız,
+    bildirimleriniz ve takip ilişkileriniz silinir.
+  </p>
+  <p>
+    <strong>Uygulamaya erişemiyorsanız:</strong> aşağıdaki e-posta adresine,
+    uygulamada kayıtlı e-posta adresinizden "Hesap Silme Talebi" konulu bir
+    e-posta gönderebilirsiniz:
   </p>
   <p>
     <strong>E-posta:</strong>
     <a href="mailto:onurerdal4455@gmail.com">onurerdal4455@gmail.com</a>
   </p>
   <p>
-    Talebiniz alındıktan sonra hesabınız ve ilişkili tüm veriler en geç 30 gün
-    içinde silinir ve işlem tamamlandığında size bilgi verilir.
+    Talebiniz en geç 30 gün içinde işleme alınır ve işlem tamamlandığında size bilgi verilir.
   </p>
 
   <h2>Çocukların Gizliliği</h2>
