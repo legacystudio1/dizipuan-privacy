@@ -1,4 +1,6 @@
 # dizipuan-privacy
+Visual Gizlilik Politikası
+Son güncelleme: 2 Ekim 2026
 Visual ("Uygulama"), kullanıcıların dizi ve film içeriklerini takip etmesine, puanlamasına, yorum yapmasına ve izleme listeleri oluşturmasına olanak sağlayan bir mobil uygulamadır. Bu politika, hangi kişisel verilerin toplandığını, nasıl işlendiğini, nasıl korunduğunu, ne kadar süre saklandığını ve nasıl silinebileceğini açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.
 
 Veri Sorumlusu
