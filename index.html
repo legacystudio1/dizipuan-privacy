@@ -5,136 +5,160 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Visual Gizlilik Politikası</title>
   <style>
-    body {
-      max-width: 820px;
-      margin: 0 auto;
-      padding: 32px 20px;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #222;
-      background: #fff;
-    }
-
-    h1, h2 {
-      color: #111;
-    }
-
-    h1 {
-      margin-bottom: 8px;
-    }
-
-    .date {
-      color: #666;
-      margin-bottom: 32px;
-    }
+    body { max-width: 820px; margin: 0 auto; padding: 32px 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #222; background: #fff; }
+    h1, h2 { color: #111; }
+    h1 { margin-bottom: 8px; }
+    .date { color: #666; margin-bottom: 32px; }
   </style>
 </head>
 <body>
   <h1>Visual Gizlilik Politikası</h1>
-
-  <p class="date">Son güncelleme: 1 Eylül 2026</p>
+  <p class="date">Son güncelleme: 2 Ekim 2026</p>
 
   <p>
-    Visual, kullanıcıların dizi ve film içeriklerini takip etmesine,
+    Visual ("Uygulama"), kullanıcıların dizi ve film içeriklerini takip etmesine,
     puanlamasına, yorum yapmasına ve izleme listeleri oluşturmasına olanak
-    sağlayan bir uygulamadır.
+    sağlayan bir mobil uygulamadır. Bu politika, hangi kişisel verilerin
+    toplandığını, nasıl işlendiğini, nasıl korunduğunu, ne kadar süre saklandığını
+    ve nasıl silinebileceğini açıklar. Uygulamayı kullanarak bu politikayı kabul
+    etmiş olursunuz.
+  </p>
+
+  <h2>Veri Sorumlusu</h2>
+  <p>
+    Kişisel verilerinizin işlenmesinden Visual uygulamasının geliştiricisi
+    sorumludur. İletişim: <a href="mailto:onurerdal4455@gmail.com">onurerdal4455@gmail.com</a>
   </p>
 
   <h2>Toplanan Bilgiler</h2>
-
-  <p>Uygulamayı kullandığınızda aşağıdaki bilgiler toplanabilir:</p>
-
+  <p>Uygulamayı kullandığınızda aşağıdaki bilgiler toplanır:</p>
   <ul>
     <li>E-posta adresi</li>
     <li>Kullanıcı adı</li>
     <li>Profil fotoğrafı</li>
-    <li>Google veya Facebook hesabına ait temel profil bilgileri</li>
+    <li>Google veya Facebook hesabına ait temel profil bilgileri (ad, e-posta, profil fotoğrafı)</li>
     <li>Puanlar, yorumlar ve beğeniler</li>
     <li>İzlenen diziler, sezonlar ve bölümler</li>
     <li>Favoriler, izleme listeleri ve özel listeler</li>
     <li>Bildirim göndermek için kullanılan cihaz bildirim tokeni</li>
   </ul>
+  <p>
+    Uygulama; konum, rehber, mikrofon, kamera (profil fotoğrafı seçimi dışında),
+    finansal bilgi veya sağlık bilgisi gibi hassas verileri toplamaz.
+  </p>
 
   <h2>Bilgilerin Kullanım Amaçları</h2>
-
-  <p>Toplanan bilgiler şu amaçlarla kullanılabilir:</p>
-
+  <p>Toplanan bilgiler yalnızca şu amaçlarla işlenir:</p>
   <ul>
     <li>Kullanıcı hesabı oluşturmak ve hesabı yönetmek</li>
     <li>Google veya Facebook ile giriş yapılmasını sağlamak</li>
-    <li>İzleme listelerini ve puanları kaydetmek</li>
+    <li>İzleme listelerini ve puanları kaydetmek ve cihazlar arasında senkronize etmek</li>
     <li>Yorumları ve sosyal özellikleri göstermek</li>
     <li>Uygulama içi bildirimler göndermek</li>
-    <li>Uygulamanın güvenliğini ve performansını geliştirmek</li>
+    <li>Uygulamanın güvenliğini sağlamak, kötüye kullanımı önlemek ve performansını geliştirmek</li>
   </ul>
 
+  <h2>Veri İşleme ve Güvenlik Uygulamaları</h2>
+  <p>Kullanıcı verilerinizi korumak için aşağıdaki önlemleri uyguluyoruz:</p>
+  <ul>
+    <li><strong>Aktarım sırasında şifreleme:</strong> Uygulama ile sunucularımız arasındaki tüm veri iletişimi HTTPS/TLS ile şifrelenir.</li>
+    <li><strong>Depolama sırasında şifreleme:</strong> Veriler, Google Firebase altyapısında şifrelenmiş olarak (at-rest encryption) saklanır.</li>
+    <li><strong>Güvenli kimlik doğrulama:</strong> Giriş işlemleri Firebase Authentication, Google Sign-In ve Facebook Login üzerinden yapılır. Şifreler (e-posta ile kayıt durumunda) tarafımızca düz metin olarak görülmez veya saklanmaz.</li>
+    <li><strong>Erişim kontrolü:</strong> Veritabanı erişimi Firebase güvenlik kuralları ile sınırlandırılır; her kullanıcı yalnızca kendi özel verilerine erişebilir ve onları değiştirebilir. Verilere yönetici erişimi yalnızca geliştirici ile sınırlıdır.</li>
+    <li><strong>Veri minimizasyonu:</strong> Yalnızca uygulamanın çalışması için gerekli veriler toplanır.</li>
+    <li><strong>Hassas verilerin işlenmemesi:</strong> Ödeme bilgisi, konum, sağlık verisi gibi hassas kişisel veriler toplanmaz veya saklanmaz.</li>
+    <li><strong>İhlal bildirimi:</strong> Kişisel verilerinizi etkileyen bir güvenlik ihlali tespit edersek, yürürlükteki mevzuata uygun şekilde ilgili kullanıcıları ve yetkili mercileri bilgilendiririz.</li>
+  </ul>
+  <p>
+    İnternet üzerinden hiçbir iletim veya depolama yönteminin %100 güvenli
+    olduğu garanti edilemez; ancak verilerinizi korumak için makul teknik ve
+    idari tedbirleri almaktayız.
+  </p>
+
   <h2>Üçüncü Taraf Hizmetler</h2>
-
   <p>
-    Visual bazı hizmetler için üçüncü taraf sağlayıcılar kullanır.
-    Bu sağlayıcılar arasında Firebase, Google Sign-In, Facebook Login ve
-    içerik verileri için kullanılan medya/film veri servisleri bulunabilir.
+    Visual, aşağıdaki üçüncü taraf hizmet sağlayıcılarını kullanır:
+  </p>
+  <ul>
+    <li><strong>Google Firebase</strong> (Authentication, Firestore/Realtime Database, Storage, Cloud Messaging): hesap yönetimi, veri depolama ve bildirimler için</li>
+    <li><strong>Google Sign-In</strong> ve <strong>Facebook Login</strong>: oturum açma için</li>
+    <li><strong>Film/dizi veri servisleri</strong> (örn. TMDB): yalnızca içerik bilgilerini (afiş, özet, oyuncu vb.) getirmek için; bu servislere kişisel verileriniz gönderilmez</li>
+  </ul>
+  <p>
+    Bu sağlayıcılar kendi gizlilik politikalarına tabidir:
+    <a href="https://policies.google.com/privacy">Google</a>,
+    <a href="https://www.facebook.com/privacy/policy/">Facebook</a>,
+    <a href="https://firebase.google.com/support/privacy">Firebase</a>.
+    Verileriniz, bu sağlayıcıların sunucularının bulunduğu ülkelerde (Türkiye
+    dışı dahil) işlenebilir.
   </p>
 
+  <h2>Verilerin Saklanması ve Saklama Süresi</h2>
   <p>
-    Bu hizmetler kendi gizlilik politikalarına ve kullanım koşullarına tabidir.
-  </p>
-
-  <h2>Verilerin Saklanması</h2>
-
-  <p>
-    Hesap bilgileri, puanlar, yorumlar ve izleme listeleri uygulamanın
-    çalışması için gerekli olduğu sürece saklanabilir. Veriler Firebase
-    altyapısında ve ilgili hizmet sağlayıcıların sistemlerinde tutulabilir.
+    Hesap bilgileri, puanlar, yorumlar ve izleme listeleri, hesabınız aktif
+    olduğu sürece saklanır. Hesabınızı sildiğinizde veya silinmesini talep
+    ettiğinizde, hesabınızla ilişkili kişisel veriler (e-posta, kullanıcı adı,
+    profil fotoğrafı, puanlar, yorumlar, listeler ve bildirim tokeni) en geç
+    30 gün içinde sistemlerimizden kalıcı olarak silinir. Yasal yükümlülükler
+    gereği saklanması zorunlu olan veriler bu süre dışında tutulabilir.
+    Yedeklerdeki veriler, yedekleme döngüsü tamamlandığında (en geç 90 gün)
+    otomatik olarak silinir.
   </p>
 
   <h2>Verilerin Paylaşılması</h2>
-
   <p>
-    Kişisel bilgileriniz satılmaz veya reklam amacıyla üçüncü taraflara
-    kiralanmaz. Profilinizde herkese açık olarak paylaştığınız kullanıcı adı,
-    profil fotoğrafı, yorumlar, puanlar ve izleme istatistikleri diğer
-    kullanıcılar tarafından görülebilir.
+    Kişisel bilgileriniz satılmaz, kiralanmaz veya reklam amacıyla üçüncü
+    taraflarla paylaşılmaz. Veriler yalnızca şu durumlarda paylaşılır:
+  </p>
+  <ul>
+    <li>Yukarıda belirtilen hizmet sağlayıcılarla, uygulamanın çalışması için gerekli ölçüde</li>
+    <li>Yasal bir zorunluluk veya yetkili mercilerin talebi halinde</li>
+  </ul>
+  <p>
+    Profilinizde herkese açık olarak paylaştığınız kullanıcı adı, profil
+    fotoğrafı, yorumlar, puanlar ve izleme istatistikleri diğer kullanıcılar
+    tarafından görülebilir. E-posta adresiniz diğer kullanıcılara gösterilmez.
+  </p>
+
+  <h2>Haklarınız</h2>
+  <p>
+    6698 sayılı KVKK ve ilgili mevzuat kapsamında; verilerinizin işlenip
+    işlenmediğini öğrenme, erişim, düzeltme, silme, işlemeye itiraz etme ve
+    verilerinizin aktarıldığı üçüncü kişileri öğrenme haklarına sahipsiniz.
+    Bu haklarınızı kullanmak için bizimle iletişime geçebilirsiniz.
   </p>
 
   <h2>Hesap ve Veri Silme</h2>
-
   <p>
-    Hesabınızın veya kişisel verilerinizin silinmesini istemek için aşağıdaki
-    e-posta adresinden bizimle iletişime geçebilirsiniz:
+    Hesabınızın ve kişisel verilerinizin silinmesini istemek için aşağıdaki
+    e-posta adresine, uygulamada kayıtlı e-posta adresinizden "Hesap Silme
+    Talebi" konulu bir e-posta gönderebilirsiniz:
   </p>
-
   <p>
     <strong>E-posta:</strong>
     <a href="mailto:onurerdal4455@gmail.com">onurerdal4455@gmail.com</a>
   </p>
-
   <p>
-    Silme talebinizi değerlendirerek hesabınızla ilişkili verilerin silinmesi
-    için gerekli işlemleri başlatırız.
+    Talebiniz alındıktan sonra hesabınız ve ilişkili tüm veriler en geç 30 gün
+    içinde silinir ve işlem tamamlandığında size bilgi verilir.
   </p>
 
   <h2>Çocukların Gizliliği</h2>
-
   <p>
-    Visual, ebeveyn izni olmadan çocuklardan bilerek kişisel bilgi toplamayı
-    amaçlamaz. Uygulamanın kullanımından ebeveynler ve yasal vasiler
-    sorumludur.
+    Visual 13 yaşın altındaki çocuklara yönelik değildir ve onlardan bilerek
+    kişisel bilgi toplamaz. Bir çocuğun bilgilerini topladığımızı fark
+    ederseniz bizimle iletişime geçin; bu bilgileri derhal sileriz.
   </p>
 
   <h2>Politika Değişiklikleri</h2>
-
   <p>
     Bu gizlilik politikası gerektiğinde güncellenebilir. Güncellemeler bu
-    sayfada yayınlanır ve sayfanın üst kısmındaki tarih değiştirilir.
+    sayfada yayınlanır ve sayfanın üst kısmındaki tarih değiştirilir. Önemli
+    değişikliklerde uygulama içinde bildirim yapılabilir.
   </p>
 
   <h2>İletişim</h2>
-
-  <p>
-    Gizlilik politikasıyla ilgili sorularınız için:
-  </p>
-
+  <p>Gizlilik politikasıyla ilgili sorularınız için:</p>
   <p>
     <strong>E-posta:</strong>
     <a href="mailto:onurerdal4455@gmail.com">onurerdal4455@gmail.com</a>
